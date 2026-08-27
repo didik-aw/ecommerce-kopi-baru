@@ -1,32 +1,31 @@
-# React + TypeScript + Vite
+# ☕ Kala Coffee Roasters
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Website e-commerce modern yang dirancang khusus untuk para pecinta kopi, menyediakan berbagai pilihan biji kopi nusantara berkualitas tinggi langsung dari petani lokal.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+🔗 [Akses Website Kala Coffee Roasters di Sini](https://ecommerce-kopi-baru.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Fitur Utama
+- **Katalog Produk Interaktif:** Menampilkan berbagai pilihan biji kopi (Arabika & Robusta) lengkap dengan deskripsi dan harga.
+- **Sistem Filter Kategori:** Memudahkan pengguna menyaring produk berdasarkan jenis kopi.
+- **Keranjang Belanja (Cart):** Fitur simulasi penambahan produk ke keranjang secara *real-time*.
+- **Responsive Design:** Tampilan web yang fleksibel dan nyaman diakses lewat perangkat apa pun (Desktop maupun Mobile).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Teknologi yang Digunakan (Tech Stack)
+- **Frontend Framework:** React.js / Vite
+- **Styling:** Tailwind CSS / CSS
+- **Version Control:** Git & GitHub
+- **Deployment:** Vercel
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+---
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## 💻 Cara Menjalankan Project secara Lokal
+Jika ingin menjalankan kode ini di komputer lokal Anda, ikuti langkah-langkah berikut:
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+1. Clone repository ini:
+   ```bash
+   git clone [https://github.com/didik-aw/ecommerce-kopi-baru.git](https://github.com/didik-aw/ecommerce-kopi-baru.git)
